@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let firstNo = number(window.prompt("enter first number"));
+        let secondNo = number(window.prompt("Enter second number"));
+        let opr = window.prompt("Enter opr like +,-,*,/");
+        document.write(`<h1>${firstNo}</h1>`);
+        document.write(`<h1>${secondNo}</h1>`);
+
+        switch (opr) {
+            case "+":
+                document.write("<h1>" + (firstNo + secondNo) + "</h1>");
+
+                break;
+
+            case "-":
+                document.write("<h1>" + (firstNo - secondNo) + "</h1>");
+
+                break;
+
+            case "*":
+                document.write("<h1>" + (firstNo * secondNo) + "</h1>");
+
+                break;
+
+
+
+            default:
+
+                document.write(`<h1>invalid oper......</h1>`);
+                break;
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body{
+
+    background-color: antiquewhite;
+}
+
+h1{
+
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+p{
+
+    color: darkblue;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-variant: inherit;
+    font-stretch: extra-condensed;
+}
+u{
+
+    color: darkblue;
+}
+
+.error{
+
+    color: red;
+    text-align: right;
+
+}
+
+.success{
+
+    color: green;
+    text-align: left;
+}
